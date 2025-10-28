@@ -193,3 +193,4 @@ if __name__ == "__main__":
 '''
 Usage:
 python Measure.py --video <EDITED_VIDEO> --text "<TEXT_PROMPT>" [--orig <ORIGINAL_VIDEO>] [--device cuda|cpu]
+'''
