@@ -1,16 +1,26 @@
-# Core Dependencies
-numpy==1.24.4
-pandas==2.1.1
-Pillow==10.0.1
-opencv-python==4.8.0.76
-torch==2.1.0
-torchvision==0.16.0
-torchaudio==2.1.0
+# Core scientific stack
+numpy==1.26.4
+torch>=2.1.0
+torchvision>=0.16.0
+torchaudio>=2.1.0
+
+# Video and image processing
+opencv-contrib-python>=4.10.0.84
+Pillow>=10.0.0
+
+# CLIP (official OpenAI repo)
+git+https://github.com/openai/CLIP.git
+
+# Progress and text helpers
+tqdm>=4.66.0
+ftfy>=6.1.1
+regex>=2023.12.25
+
+# Optional: pandas removed, but you can re-enable if desired
+pandas>=2.2.2
+
 scikit-image==0.24.0
 lpips==0.1.4
-
-# CLIP (from OpenAI's official repository)
-git+https://github.com/openai/CLIP.git
 
 # Optional (for progress visualization and plotting)
 tqdm==4.66.1
